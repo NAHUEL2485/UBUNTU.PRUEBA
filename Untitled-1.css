@@ -1,0 +1,127 @@
+/* Google Fonts */
+
+
+/* html{scroll-behavior: smooth;} */
+
+/* Selector Universal */
+*{box-sizing: border-box;}
+
+
+body{
+    background-color:#030303;
+    margin: 0 auto;
+    max-width: 1920px;
+    font-family: "Alatsi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Selector Grupal */
+body, nav, header, main, footer, #containerUno , #containerDos{width: 100%;}
+nav, footer{background-color: black;}
+h1,h2,h3,h4,h5,h6{color: white; text-align: center; margin-top: 0;}
+
+/* Menú de navegación */
+nav{height: 60px;}
+
+nav ul{
+    width: auto;
+    height: auto;
+    margin:0;
+    padding: 0;
+}
+
+nav ul a{color: white; text-decoration: none;}
+
+nav ul li{
+    width: auto;
+    height: 60px;
+    list-style: none;
+    display:inline-block;
+    text-align: center;
+    line-height: 60px;
+    padding: 0 20px;
+    border-right: 1px solid gray;
+}
+
+header{
+    height: 600px;
+    background-color:gray;
+
+    background-image: url(../imagenes/baner.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    margin-bottom: 75px;
+
+    position: relative;
+}
+#logo{
+
+    width: 500px;
+    position: absolute;
+    top: 75px;
+    left:210px;
+}
+
+#logo img{width: 100%;}
+
+hr{
+    width: 90%;
+}
+main{
+    height: auto;
+   
+    padding: 50px;
+}
+
+h1{ font-size: 45px;}
+
+/* target */
+#containerUno{
+    margin: 50px auto  75 px   auto;
+    /* height: 700px;
+    background-color: #ccc; */
+
+    /* propiedad flexbox */
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.card{
+    width: 32%;
+    height: 625px;
+    background-color: #1c1c1c;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    position: relative;
+}
+#c1{background-image: url(../imagenes/azul.jpg);}
+#c2{background-image: url(../imagenes/batman.jpg);}
+#c3{background-image: url(../imagenes/robot.jpg);}
+
+.card h3{
+    width: 100%;
+    background-color: rgba(255, 0,0,0.75);
+    font-size: 24px;
+    position: absolute;
+    bottom: 15px;
+    padding: 20px;
+
+}
+#containerDos{
+    margin: 50px auto  75 px   auto;
+}
+iframe{
+    width: 94.5%;
+    height: 400px;
+    border: 2px solid darkred;
+    margin: auto;
+    display: block;
+}
+footer{
+    height: 550px;
+    border-top: 10px solid darkred
+  
+}
