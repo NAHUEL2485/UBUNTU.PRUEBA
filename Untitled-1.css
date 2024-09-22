@@ -61,7 +61,7 @@ header {
 
 #logo {
     width: 100%; /* Hacer el logo responsivo */
-    max-width: 500px; /* Limitar el tamaño máximo */
+    max-width: 800px; /* Limitar el tamaño máximo */
     position: absolute;
     top: 75px;
     left: 50%; /* Centrar horizontalmente */
