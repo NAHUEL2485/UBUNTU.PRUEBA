@@ -104,9 +104,9 @@ h1 {
     margin-bottom: 20px; /* Espacio entre tarjetas */
 }
 
-#c1 { background-image: url(../https://raw.githubusercontent.com/NAHUEL2485/UBUNTU.PRUEBA/c8d3d58dc54a2c25c6edcf869d53f74b0b028dc1/Tux.svg); }
-#c2 { background-image: url(../https://raw.githubusercontent.com/NAHUEL2485/UBUNTU.PRUEBA/e1ef18aa28859695ce030222f2d23dd8a37ae078/download1-svgrepo-com.svg); }
-#c3 { background-image: url(../imagenes/robot.jpg); }
+#c1 { background-image: url(https://raw.githubusercontent.com/NAHUEL2485/UBUNTU.PRUEBA/c8d3d58dc54a2c25c6edcf869d53f74b0b028dc1/Tux.svg); }
+#c2 { background-image: url(https://raw.githubusercontent.com/NAHUEL2485/UBUNTU.PRUEBA/e1ef18aa28859695ce030222f2d23dd8a37ae078/download1-svgrepo-com.svg); }
+#c3 { background-image: url(imagenes/robot.jpg); }
 
 .card h3 {
     width: 100%;
